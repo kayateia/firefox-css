@@ -2,10 +2,11 @@
 @import url(firefox/sideberyMods.css);
 @import url(firefox/sideberyModsOnRight.css);
 @import url(firefox/tabCloseButtonOnLeft.css);
+@import url(firefox/hideTabBar.css);
 
 /* sideberyModsLEFT.css variables */
 :root {
-  --autohide-sidebar-extended: 240px; /* width of panel extended */
+  --autohide-sidebar-extended: 300px; /* width of panel extended */
   --autohide-sidebar-collapsed: 42px; /* width of panel collapsed */
   --autohide-sidebar-delay: 0; /* how long to wait before hiding or unhiding the sidebar */
 }
